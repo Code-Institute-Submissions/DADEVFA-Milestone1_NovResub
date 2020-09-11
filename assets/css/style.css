@@ -1,3 +1,8 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /*-------------------------------Color*/ 
 
 
@@ -5,14 +10,23 @@
 /*-------------------------------Nav*/ 
 
 .navbar {
-background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.64);
 vertical-align: middle;
+z-index: 900;
 }
 
 .navbar-brand h2 {
 color: white;
 font-weight: 200;
 vertical-align: middle;
+display: inline;
+}
+
+.navbar-toggler {
+display: inline;
+background: none;
+border: none;
+
 }
 
 .center-menu { 
@@ -21,4 +35,61 @@ text-align: center;
 
 .nav-item {
     font-size: 20px;
+}
+
+.navbar ul li {
+  position:relative;
+}
+
+#navbarNavDropdown {
+ position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+  z-index:1;
+  background:rgba(0, 0, 0, 0.64);
+  border-color: rgba(0, 0, 0, 0.64);
+}
+/*-------------------------------Jumbotron*/ 
+
+.callout-container {
+  height: 80vh;
+ position: fixed;
+ top: 0;
+ left:0;
+  background: url("../images/13.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+background: none; 
+ padding-top: 185px;
+}
+
+.jumbotron-header {
+    color: white;
+    font-size: 7vw; 
+}
+
+.first-button {
+        color: white;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 90px;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    background: rgb(199, 200, 160, 0.63);
+    border-color: rgb(255, 255, 255, 0.44); 
+    border-width: 0.1px; 
+    border-radius: 0;
 }
