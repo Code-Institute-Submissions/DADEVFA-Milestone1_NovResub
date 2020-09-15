@@ -1,84 +1,79 @@
 @font-face {
-src: url(fonts/AmericanaStd.woff);
-font-family: "AmericanaStd"; 
+  src: url(fonts/AmericanaStd.woff);
+  font-family: "AmericanaStd";
 }
 
 @font-face {
-src: url(fonts/LaoMN.ttf);
-font-family: "Lao";  
+  src: url(fonts/LaoMN.ttf);
+  font-family: "Lao";
 }
 
 .logotext {
-font-family: "AmericanaStd";
+  font-family: "AmericanaStd";
 }
 
 body {
-font-family: "Lao"; 
-    }
-
-/*-------------------------------Color*/ 
-.container-bio {
-background-color: rgb(219, 219, 219, 0.33);
+  font-family: "Lao";
 }
 
+/*-------------------------------Color*/
 
-/*-------------------------------Nav*/ 
+
+/*-------------------------------Nav*/
 
 .navbar {
-background-color: rgba(0, 0, 0, 0.64);
-vertical-align: middle;
-z-index: 900;
-height: 80px;
+  background-color: rgba(0, 0, 0, 0.64);
+  vertical-align: middle;
+  z-index: 900;
+  height: 80px;
 }
 
 .navbar-brand h2 {
-color: white;
-font-family: AmericanaStd;
-font-weight: 100;
-font-size: 26px;
-letter-spacing: 2px;
-vertical-align: middle;
-display: inline;
-
+  color: white;
+  font-family: AmericanaStd;
+  font-weight: 100;
+  font-size: 26px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  display: inline;
 }
 
 .navbar-toggler {
-display: inline;
-background: none;
-border: none;
-
+  display: inline;
+  background: none;
+  border: none;
 }
 
-.center-menu { 
-text-align: center;
-font-family: AmericanaStd;
-font-size: 20px;
-letter-spacing: 1px;
+.center-menu {
+  text-align: center;
+  font-family: AmericanaStd;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .nav-item {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .navbar ul li {
-  position:relative;
+  position: relative;
 }
 
 #navbarNavDropdown {
- position:absolute;
-  top:100%;
-  left:0;
-  right:0;
-  z-index:1;
-  background:rgba(0, 0, 0, 0.64);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.64);
   border-color: rgba(0, 0, 0, 0.64);
 }
-/*-------------------------------Jumbotron*/ 
+/*-------------------------------Jumbotron*/
 
 .callout-container-background {
- position: absolute;
- top: 0;
- left:0;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: url("../images/13.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -91,83 +86,125 @@ letter-spacing: 1px;
   height: 80vh;
 }
 
-
 .callout-container {
   align-items: center;
   justify-content: center;
- overflow: hidden;
+  overflow: hidden;
   z-index: -100;
-  width:100%;
+  width: 100%;
   height: 60vh;
 }
 
 .jumbotron {
-background: none; 
- padding-top: 185px;
+  background: none;
+  padding-top: 185px;
 }
 
 .jumbotron-header {
-    color: white;
-    font-family: lao;
-    font-size: 9vw; 
-    margin-top: 30px;
+  color: white;
+  font-family: lao;
+  font-size: 9vw;
+  margin-top: 30px;
 }
 
 .first-button {
-        color: white;
-    font-weight: 100;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    margin-top: 70px;
-    height: 35px;
-    width: 175px;
-    text-align: center;
-    padding: 0;
-    background: rgb(199, 200, 160, 0.63);
-    border-color: rgb(255, 255, 255, 0.44); 
-    border-width: 0.1px; 
-    border-radius: 0;
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-top: 70px;
+  height: 35px;
+  width: 175px;
+  text-align: center;
+  padding: 0;
+  background: rgb(199, 200, 160, 0.63);
+  border-color: rgb(255, 255, 255, 0.44);
+  border-width: 0.1px;
+  border-radius: 0;
 }
 
-/*-------------------------------Biography*/ 
-
+/*-------------------------------Biography*/
 
 .container-bio {
-padding: 125px 0 4px 0;
-margin-top: 10px;
-text-align: center; 
-
+  padding: 125px 0 4px 0;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(219, 219, 219, 0.33);
 }
 .bio-text {
-    padding-top: 10px;
-    margin: 25px 5px 25px 5px;
+  padding-top: 10px;
+  margin: 65px 5px 45px 5px;
 }
 .bio-text p {
-font-size: 16px;
-letter-spacing: 1px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .media-picture {
-text-align: center;
-padding-top: 10px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50
 }
 
 .second-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-border-width: 0.1px;
-letter-spacing: 1px;
-height: 28px;
-width: 110px;
-background: transparent;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 0.1px;
+  letter-spacing: 1px;
+  height: 28px;
+  width: 110px;
+  background: transparent;
 }
 .bio-text button {
-font-size: 14px;
-letter-spacing: 2px;
-font-weight: 200;
-text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: center;
+}
+
+/*-------------------------------Fanmail*/
+.inline {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.email-form {
+  background-color: rgb(199, 200, 160);
+    padding: 50px 30px 50px 40px;
+}
+.email-input {
+  color: black;
+  width: 60%;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: black; 
+}
+
+.form-div {
+font-family: "Lao";
+  font-size: 16px;
+  letter-spacing: 1px
+}
+
+.email-button {
+    margin-left: 60px;
 }
 
 
-/*-------------------------------Biography*/ 
+@media (min-width: 768px) {
+  .email-form {
+    padding: 50px 20px 50px 100px;
+  }
+
+}
+
+@media (min-width: 931px) {
+  .email-form {
+    padding: 50px 20px 50px 200px;
+  }
+
+}
