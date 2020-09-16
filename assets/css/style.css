@@ -18,9 +18,12 @@ body {
 
 /*-------------------------------Color*/
 
-
 /*-------------------------------Nav*/
 
+.nav {
+  width: 100%;
+  position: relative;
+}
 .navbar {
   background-color: rgba(0, 0, 0, 0.64);
   vertical-align: middle;
@@ -70,41 +73,38 @@ body {
 }
 /*-------------------------------Jumbotron*/
 
-.callout-container-background {
-  position: absolute;
-  top: 0;
-  left: 0;
+.container-hero-bg {
   background: url("../images/13.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 80vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center top;
-  height: 80vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .callout-container {
-  align-items: center;
-  justify-content: center;
+  position: relative;
   overflow: hidden;
-  z-index: -100;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
+display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .jumbotron {
   background: none;
-  padding-top: 185px;
 }
 
 .jumbotron-header {
   color: white;
   font-family: lao;
-  font-size: 9vw;
-  margin-top: 30px;
+  font-size: 11vw;
+  padding-top: 40px;
 }
 
 .first-button {
@@ -112,28 +112,26 @@ body {
   font-weight: 100;
   font-size: 16px;
   letter-spacing: 1.5px;
-  margin-top: 70px;
   height: 35px;
-  width: 175px;
+  width: 170px;
   text-align: center;
   padding: 0;
   background: rgb(199, 200, 160, 0.63);
   border-color: rgb(255, 255, 255, 0.44);
   border-width: 0.1px;
   border-radius: 0;
+  margin-top: 40px;
 }
 
 /*-------------------------------Biography*/
 
 .container-bio {
-  padding: 125px 0 4px 0;
-  margin-top: 10px;
-  padding-bottom: 20px;
+  padding: 10px 0 4px 0;
   text-align: center;
   background-color: rgb(219, 219, 219, 0.33);
 }
 .bio-text {
-  padding-top: 10px;
+  padding-top: 5px;
   margin: 65px 5px 45px 5px;
 }
 .bio-text p {
@@ -144,7 +142,7 @@ body {
 .media-picture {
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 50
+  padding-bottom: 50;
 }
 
 .second-button {
@@ -168,12 +166,12 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-
 }
 
 .email-form {
   background-color: rgb(199, 200, 160);
-    padding: 50px 30px 50px 40px;
+  padding: 50px 30px 50px 30px;
+  align-items: center;
 }
 .email-input {
   color: black;
@@ -181,30 +179,76 @@ body {
   background-color: transparent;
   border-style: solid;
   border-width: 0 0 1px 0;
-  border-color: black; 
+  border-color: black;
 }
 
 .form-div {
-font-family: "Lao";
+  font-family: "Lao";
   font-size: 16px;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+    margin-top: auto;
+    justify-content: center;
 }
 
 .email-button {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
+/*-------------------------------Footer*/
+
+.footer-container {
+  width: 100%;
+  height: 250px;
+  padding-top: 50px;
+  background-color: rgb(20, 53, 70, 0.89);
+  position: relative;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-links {
+  text-align: center;
+  margin-left: 3px;
+}
+
+.footer-links a {
+  margin-right: 8px;
+}
+
+  .footer-text-div {
+    color: white;
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  }
+
+.footerbottomtext {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 @media (min-width: 768px) {
   .email-form {
     padding: 50px 20px 50px 100px;
   }
-
 }
 
 @media (min-width: 931px) {
   .email-form {
     padding: 50px 20px 50px 200px;
   }
+}
 
+@media (min-width: 415px) {
+  .footer-links a {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-height: 1280px) {
+  .email-form {
+    padding-left: 150px;
+  }
 }
