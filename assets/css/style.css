@@ -71,6 +71,24 @@ body {
   background: rgba(0, 0, 0, 0.64);
   border-color: rgba(0, 0, 0, 0.64);
 }
+
+.Nav2 {
+  background-color: rgba(0, 0, 0, 0.84);
+  width: 100%;
+  position: relative;
+}
+
+#navbarNavDropdown2 {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.84);
+  border-color: rgba(0, 0, 0, 0.84);
+}
+
 /*-------------------------------Jumbotron*/
 
 .container-hero-bg {
@@ -91,9 +109,9 @@ body {
   overflow: hidden;
   width: 100%;
   height: 70vh;
-display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .jumbotron {
@@ -186,8 +204,8 @@ display: flex;
   font-family: "Lao";
   font-size: 16px;
   letter-spacing: 1px;
-    margin-top: auto;
-    justify-content: center;
+  margin-top: auto;
+  justify-content: center;
 }
 
 .email-button {
@@ -215,18 +233,120 @@ display: flex;
   margin-right: 8px;
 }
 
-  .footer-text-div {
-    color: white;
+.footer-text-div {
+  color: white;
   font-weight: 100;
   font-size: 12px;
   letter-spacing: 1.5px;
-  }
+}
 
 .footerbottomtext {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* -------------------------------Songs */
+.bg-container-songs {
+  background-color: rgb(212, 212, 212);
+  width: 100%;
+  height: 100%;
+}
+
+.songs-header-text {
+  margin: 30px 20px 20px 20px;
+}
+.container-songs .row {
+  justify-content: center;
+  margin: 40px 0 50px 0;
+}
+.inline2 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.container-songs .songbox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.songbox img {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.songbox .title {
+}
+
+.title {
+  width: 48vh;
+  height: 35px;
+  vertical-align: center;
+}
+
+.title p {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+.title-text {
+  width: 65%;
+}
+
+.stream-button {
+  width: 35%;
+  text-align: right;
+  margin-right: 3px;
+}
+.row {
+  margin: 0;
+}
+.songbox {
+  color: black;
+  font-family: "Lao";
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0, 0.1);
+  border-width: 0.1px;
+  margin: 5px;
+}
+
+.songbox p {
+  bottom: 0;
+  left: 0;
+}
+
+.songbox a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.third-button {
+  border-width: 0.1px;
+  letter-spacing: 1px;
+  height: 28px;
+  width: 100px;
+  background: transparent;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.dim-img {
+  height: 48vh;
+  width: 48vh;
+}
+
+.bumpercars-img {
+  height: 48vh;
+  width: 48vh;
+}
+
+.comfortable-img {
+  height: 48vh;
+  width: 48vh;
 }
 
 @media (min-width: 768px) {
