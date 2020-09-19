@@ -248,6 +248,7 @@ body {
 }
 
 /* -------------------------------Songs */
+
 .bg-container-songs {
   background-color: rgb(212, 212, 212);
   width: 100%;
@@ -256,10 +257,12 @@ body {
 
 .songs-header-text {
   margin: 30px 20px 20px 20px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .container-songs .row {
   justify-content: center;
-  margin: 40px 0 50px 0;
+  margin: 40px 0 0 0;
 }
 .inline2 {
   display: flex;
@@ -277,13 +280,14 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
-}
-
-.songbox .title {
+  height: 500px;
+  width: 500px;
+  height: auto;
+  width: 100%;
 }
 
 .title {
-  width: 48vh;
+  width: 100%;
   height: 35px;
   vertical-align: center;
 }
@@ -307,11 +311,14 @@ body {
 .songbox {
   color: black;
   font-family: "Lao";
-  font-size: 16px;
+  font-size: 21px;
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
-  margin: 5px;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  margin: 0 10px 20px 10px;
 }
 
 .songbox p {
@@ -334,21 +341,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.dim-img {
-  height: 48vh;
-  width: 48vh;
-}
-
-.bumpercars-img {
-  height: 48vh;
-  width: 48vh;
-}
-
-.comfortable-img {
-  height: 48vh;
-  width: 48vh;
-}
-
 @media (min-width: 768px) {
   .email-form {
     padding: 50px 20px 50px 100px;
@@ -359,6 +351,12 @@ body {
   .email-form {
     padding: 50px 20px 50px 200px;
   }
+  .songbox {
+    max-width: 500px;
+  }
+  .songs-header-text {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 415px) {
@@ -366,6 +364,25 @@ body {
     margin-right: 1rem;
   }
 }
+@media (min-width: 320px) {
+  .songbox .title {
+    height: auto;
+    width: 100%;
+  }
+  .songbox {
+    margin: 0 0px 20px 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+    .songbox {
+    margin: 0 10px 60px 10px;
+    }
+    .titles {
+        font-size: 1rem;
+    }
+}
+
 
 @media (min-height: 1280px) {
   .email-form {
