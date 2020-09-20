@@ -247,7 +247,7 @@ body {
   text-align: center;
 }
 
-/* -------------------------------Songs */
+/* ------------------------------- All Songs */
 
 .bg-container-songs {
   background-color: rgb(212, 212, 212);
@@ -257,7 +257,7 @@ body {
 
 .songs-header-text {
   margin: 30px 20px 20px 20px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 .container-songs .row {
@@ -341,6 +341,70 @@ body {
   margin-bottom: 1rem;
 }
 
+/*------------------------------- One Song */
+
+.linkbox {
+  width: 500px;
+  height: auto;
+  color: black;
+  font-family: "Lao";
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.forth-button {
+  height: 50px;
+  width: 500px;
+  width: 100%;
+  border: none;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(199, 200, 160, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(199, 200, 160, 0.75);
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #C7C8A0;
+  background-color: #C7C8A0;
+  color: white;
+}
+
+
+
+.forth-button img {
+  margin-right: 15px;
+}
+
 @media (min-width: 768px) {
   .email-form {
     padding: 50px 20px 50px 100px;
@@ -355,7 +419,7 @@ body {
     max-width: 500px;
   }
   .songs-header-text {
-    font-size: 2.5rem;
+    font-size: 2.rem;
   }
 }
 
@@ -375,14 +439,13 @@ body {
 }
 
 @media (min-width: 1000px) {
-    .songbox {
+  .songbox {
     margin: 0 10px 60px 10px;
-    }
-    .titles {
-        font-size: 1rem;
-    }
+  }
+  .titles {
+    font-size: 1rem;
+  }
 }
-
 
 @media (min-height: 1280px) {
   .email-form {
