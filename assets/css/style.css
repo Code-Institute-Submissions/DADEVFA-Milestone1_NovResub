@@ -160,7 +160,7 @@ body {
 .media-picture {
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 50;
+  padding-bottom: 50px;
 }
 
 .second-button {
@@ -210,6 +210,16 @@ body {
 
 .email-button {
   margin-left: 60px;
+}
+
+.terms-collapse {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body {
+background-color: transparent;
+margin-left: 30px;
 }
 
 /*-------------------------------Footer*/

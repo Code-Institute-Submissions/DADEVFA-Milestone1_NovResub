@@ -44,7 +44,7 @@
 						<a class="nav-link center-menu" href="/">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link center-menu" href="">Released Songs</a>
+						<a class="nav-link center-menu" href="songs.html">Released Songs</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link center-menu" href="">Biography</a>
@@ -100,11 +100,25 @@
 		<div class="form-div">
 			<h2>Don’t miss a thing!</h2>
 			<p>Follow and Subscribe to get all the latest songs and news!</p>
-			<form class="inline">
-				<input type="email" class="form-control email-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+			<form action="/fanlist.php" method="post" class="inline">
+				<input type="email" class="form-control email-input" id="fanmail" name="fanmail" placeholder="Email Address">
 				<button type="submit" class="second-button email-button">Sign up!</button>
 			</form>
-			<p>Terms</p>
+			<p>
+				<a class="second-button terms-collapse" data-toggle="collapse" href="#multiCollapse" role="button"
+					aria-expanded="false" aria-controls="multiCollapse">Terms</a>
+			</p>
+			<div class="row">
+				<div class="col">
+					<div class="collapse multi-collapse" id="multiCollapse">
+						<div class="card card-body">
+							By submitting your email address you give C&ELA the possibility to send you information
+							about released music or future releases, news, venues, tickets etc. You can opt-out at anytime by
+                            sending an email thru our <a href="contact.html">contact page.</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
