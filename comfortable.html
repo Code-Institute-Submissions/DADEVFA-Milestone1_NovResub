@@ -51,7 +51,7 @@
               <a class="nav-link center-menu" href="songs.html">Released Songs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link center-menu" href="">Biography</a>
+              <a class="nav-link center-menu" href="biography.html">Biography</a>
             </li>
             <li class="nav-item">
               <a class="nav-link center-menu" href="">Contact</a>
@@ -67,23 +67,40 @@
           Comfortable by <span class="logotext">C&ELA</span>
         </h4>
         <div class="row">
-          <a href="comfortable.html">
           <div class="comfortable songbox">
             <div class="col-4 col-12">
             <img src="../assets/images/comfortable.jpg" class="comfortable-img"/>
             <div class="title inline2">
               <div class="title-text"><p>Comfortable by <span class="logotext">C&ELA</span></p></div>
-              <div class="stream-button"><button class="third-button">Stream</button></div>
+            <a
+            class="third-button terms-collapse"
+            data-toggle="collapse"
+            href="#multiCollapse"
+            role="button"
+            aria-expanded="false"
+            aria-controls="multiCollapse"
+            >
+            <div class="stream-button">
+                    <button class="third-button"><i class="fa fa-play" aria-hidden="true"></i> Play</button></a>
+                </div>
+              </div>
             </div>
+        <div class="row">
+          <div class="col previewpadding">
+            <div class="collapse multi-collapse" id="multiCollapse">
+              <div class="card card-body song-preview">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/839105395&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/songsbycxela" title="C&amp;ELA" target="_blank" style="color: #cccccc; text-decoration: none;">C&amp;ELA</a> · <a href="https://soundcloud.com/songsbycxela/her-comfortable-cela-cover" title="H.E.R. - Comfortable (C&amp;ELA cover)" target="_blank" style="color: #cccccc; text-decoration: none;">H.E.R. - Comfortable (C&amp;ELA cover)</a></div>
+              </div>
             </div>
           </div>
-        </a>
+        </div>
+          </div>
           <div class="linkbox">
             <div class="col-4 col-12">
               <div class="linkbuttons">
-                <div class="linkbox-logos inline2"><button class="forth-button hvr-back-pulse"><a
-            href="https://open.spotify.com/artist/3h3xRXmtsGNhk3ZsYj5R7X?si=p0gTv59-S76dFvB3TCTrqA"
-            ><img src="../assets/images/soundcloudlogo.png" class="rounded-circle footer-social" height="40" width="40"/></a> Play Comfortable on Soundcloud</button></div>
+                <a href="https://soundcloud.com/songsbycxela/her-comfortable-cela-cover" target="_blank">
+            <div class="linkbox-logos inline2"><button class="forth-button hvr-back-pulse">
+            <img src="../assets/images/soundcloudlogo.png" class="rounded-circle footer-social" height="40" width="40"/> Play Comfortable on Soundcloud</button></div></a>
               </div>
             </div>
           </div>
@@ -91,10 +108,11 @@
       </div>
     </div>
 
+   <!-- Footer-->
     <footer>
       <div class="footer-container">
         <div class="footer-links">
-          <a href="https://www.instagram.com/songsbycxela"
+          <a href="https://www.instagram.com/songsbycxela" target="_blank"
             ><img
               src="../assets/images/ig.png"
               class="rounded-circle footer-social"
@@ -102,35 +120,35 @@
               width="40"
           /></a>
           <a
-            href="https://open.spotify.com/artist/3h3xRXmtsGNhk3ZsYj5R7X?si=p0gTv59-S76dFvB3TCTrqA"
+            href="https://open.spotify.com/artist/3h3xRXmtsGNhk3ZsYj5R7X?si=p0gTv59-S76dFvB3TCTrqA" target="_blank"
             ><img
               src="../assets/images/spotify.png"
               class="rounded-circle footer-social"
               height="40"
               width="40"
           /></a>
-          <a href="https://soundcloud.com/songsbycxela"
+          <a href="https://soundcloud.com/songsbycxela" target="_blank"
             ><img
               src="../assets/images/soundcloudlogo.png"
               class="rounded-circle footer-social"
               height="40"
               width="40"
           /></a>
-          <a href="https://www.youtube.com/channel/UCsjE1qzYvMxdJNWnXJgn3zA"
+          <a href="https://www.youtube.com/channel/UCsjE1qzYvMxdJNWnXJgn3zA" target="_blank"
             ><img
               src="../assets/images/youtube.png"
               class="rounded-circle footer-social"
               height="40"
               width="40"
           /></a>
-          <a href="https://twitter.com/CxELAmusic"
+          <a href="https://twitter.com/CxELAmusic" target="_blank"
             ><img
               src="../assets/images/twitter.png"
               class="rounded-circle footer-social"
               height="40"
               width="40"
           /></a>
-          <a href="https://music.apple.com/us/artist/c-ela/1515194604"
+          <a href="https://music.apple.com/us/artist/c-ela/1515194604" target="_blank"
             ><img
               src="../assets/images/apple.png"
               class="rounded-circle footer-social"
@@ -143,6 +161,7 @@
         </div>
       </div>
     </footer>
+    <!--/.Footer-->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
