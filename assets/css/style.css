@@ -9,12 +9,12 @@
 }
 
 .logotext {
-  font-family: "AmericanaStd";
-  letter-spacing: 2px;
+  font-family: "AmericanaStd", serif; 
+  letter-spacing: 1px;
 }
 
 body {
-  font-family: "Lao";
+  font-family: "Lao", sans-serif;
 }
 
 
@@ -92,7 +92,7 @@ body {
 /*-------------------------------Jumbotron*/
 
 .container-hero-bg {
-  background: url("../images/13.jpg") no-repeat center center fixed;
+  background: url("../images/c&elabackground.jpg") no-repeat center center fixed;
   width: 100%;
   height: 80vh;
   -webkit-background-size: cover;
@@ -125,10 +125,11 @@ body {
   padding-top: 40px;
 }
 
-.first-button {
+.jumbotron-button {
   color: white;
   font-weight: 100;
   font-size: 16px;
+  font-family: "Lao";
   letter-spacing: 1.5px;
   height: 35px;
   width: 170px;
@@ -139,6 +140,10 @@ body {
   border-width: 0.1px;
   border-radius: 0;
   margin-top: 40px;
+}
+
+.jumbotron-button:hover {
+    color: black;
 }
 
 /*-------------------------------Biography Preview */
@@ -155,6 +160,7 @@ body {
 .bio-text p {
   font-size: 16px;
   letter-spacing: 1px;
+  font-family: "Lao";
 }
 
 .media-picture {
@@ -163,7 +169,7 @@ body {
   padding-bottom: 50px;
 }
 
-.second-button {
+.bio-button {
   margin-top: 10px;
   margin-bottom: 10px;
   border-width: 0.1px;
@@ -171,15 +177,18 @@ body {
   height: 28px;
   width: 110px;
   background: transparent;
-}
-.bio-text button {
-  font-size: 14px;
-  letter-spacing: 2px;
+ font-size: 13px;
+  font-family: "Lao";
   font-weight: 200;
   text-align: center;
 }
 
+.bio-button:hover {
+    color: rgb(199, 200, 160);
+}
+
 /*-------------------------------Fanmail*/
+
 .inline {
   display: flex;
   align-items: center;
@@ -209,7 +218,19 @@ body {
 }
 
 .email-button {
+      margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 0.1px;
+  letter-spacing: 1px;
+  height: 28px;
+  width: 110px;
+  background: transparent;
   margin-left: 60px;
+  font-size: 14px
+}
+
+.email-button:hover {
+    color: white;
 }
 
 .terms-collapse {
@@ -251,6 +272,7 @@ background-color: transparent;
   font-weight: 100;
   font-size: 12px;
   letter-spacing: 1.5px;
+  font-family: "Lao";
 }
 
 .footerbottomtext {
@@ -270,8 +292,9 @@ background-color: transparent;
 
 .songs-header-text {
   margin: 30px 20px 20px 20px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
+  font-family: "Lao";
 }
 .container-songs .row {
   justify-content: center;
@@ -288,16 +311,6 @@ background-color: transparent;
   align-items: center;
   text-align: center;
 }
-.songbox img {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-  height: 500px;
-  width: 500px;
-  height: auto;
-  width: 100%;
-}
 
 .title {
   width: 100%;
@@ -313,26 +326,32 @@ background-color: transparent;
   width: 65%;
 }
 
-.stream-button {
-  width: 35%;
-  text-align: right;
-  margin-right: 3px;
+.container-songs a:hover {
+text-decoration: none;
 }
 
-}
 .songbox {
   color: black;
   font-family: "Lao";
-  font-size: 20px;
+  font-size: 16px;
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
-  width: 100%;
-  height: auto;
+  height: auto; 
+  width: auto;
   max-width: 700px;
   margin: 0 10px 20px 10px;
 }
 
+.songbox img {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
+}
+ 
 .songbox p {
   bottom: 0;
   left: 0;
@@ -344,8 +363,13 @@ background-color: transparent;
   text-align: center;
 }
 
+.stream-button-area {
+  width: 35%;
+  text-align: right;
+  margin-right: 3px;
+}
 
-.third-button {
+.songs-button {
   border-width: 0.1px;
   letter-spacing: 1px;
   height: 28px;
@@ -355,26 +379,39 @@ background-color: transparent;
   margin-bottom: 1rem;
 }
 
+.email-button:hover {
+    color: white;
+    font-size: 13px;
+}
+
 /*------------------------------- One Song: (Dim,Bumper Cars, Comfortable) */
 
 .linkbox {
   width: 500px;
   height: auto;
-  color: black;
-  font-family: "Lao";
-  font-size: 16px;
   margin-bottom: 20px;
 }
 
-.forth-button {
+.departure-links {
   height: 50px;
   width: 500px;
   width: 100%;
   border: none;
   margin-bottom: 5px;
+  padding: 5px 0 5px 5px;
   text-align: left;
-  padding: 0 0 0 20px;
+  background-color: white;
+    color: black;
+  font-family: "Lao";
+  font-size: 15px;
+    display: flex;
+  align-items: center;
 }
+
+.linkbox img {
+    margin: 0 10px 0 10px;
+}
+
 .song-preview {
 padding:10px 5px 10px 5px;
 }
@@ -384,6 +421,64 @@ padding:10px 5px 10px 5px;
     padding: 0;
 }
 
+.singlebox {
+  color: black;
+  font-family: "Lao";
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0, 0.1);
+  border-width: 0.1px;
+  height: auto; 
+  width: auto;
+  max-width: 500px;
+  margin: 0 10px 20px 10px;
+}
+.singlebox img {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
+}
+.singlebox p {
+  bottom: 0;
+  left: 0;
+  color: black;
+}
+
+.singlebox a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.preview-button-area {
+  width: 35%;
+  text-align: right;
+  margin-right: 3px;
+}
+
+.preview-button {
+  border-width: 0.1px;
+  letter-spacing: 1px;
+  height: 28px;
+  width: 100px;
+  background: transparent;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+
+.back2-songs {
+    text-align: right;
+    height: 20px;
+    width: 100%;
+    margin: 15px 0 20px 0;
+    padding-right: 13px;
+}
+
+
+/* -----------------------https://ianlunn.github.io/Hover/ Hover animations -----*/
 
 @-webkit-keyframes hvr-back-pulse {
   50% {
@@ -395,9 +490,6 @@ padding:10px 5px 10px 5px;
     background-color: rgba(199, 200, 160, 0.75);
   }
 }
-
-/* -----------------------https://ianlunn.github.io/Hover/ Hover animations -----*/
-
 
 .hvr-back-pulse {
   display: inline-block;
@@ -411,6 +503,7 @@ padding:10px 5px 10px 5px;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
+
 .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
@@ -427,9 +520,6 @@ padding:10px 5px 10px 5px;
   color: white;
 }
 
-.forth-button img {
-  margin-right: 15px;
-}
 
 .container-songs a:hoover {
     text-decoration: none; 
@@ -454,11 +544,42 @@ padding: 0 20px 20px 20px;
     margin-top: 30px;
 }
 
+.biography-button:hover {
+    color: rgb(199, 200, 160);
+}
+
 /*------------------------------- Screensizes */
+/*------------------------------- Phones */
+
+@media (min-width: 320px) {
+  .songbox .title {
+    height: auto;
+    width: 100%;
+  }
+  .songbox {
+    margin: 0 10px 20px 10px;
+  }
+}
+
+@media (min-width: 415px) {
+  .footer-links a {
+    margin-right: 1rem;
+  }
+}
+
+/*------------------------------- Tablet */
+
 
 @media (min-width: 768px) {
   .email-form {
     padding: 50px 20px 50px 100px;
+  }
+.songbox {
+    width: 350px;
+    margin: 0 5px 20px 5px;
+  }
+  .songs-header-text {
+  font-size: 2rem;
   }
 }
 
@@ -467,7 +588,8 @@ padding: 0 20px 20px 20px;
     padding: 50px 20px 50px 200px;
   }
   .songbox {
-    max-width: 500px;
+    max-width: 550px;
+    
   }
   .songs-header-text {
     font-size: 2.rem;
@@ -477,32 +599,21 @@ padding: 0 20px 20px 20px;
   }
 }
 
-@media (min-width: 415px) {
-  .footer-links a {
-    margin-right: 1rem;
-  }
-}
-@media (min-width: 320px) {
-  .songbox .title {
-    height: auto;
-    width: 100%;
-  }
+@media (min-width: 999px) {
   .songbox {
-    margin: 0 0px 20px 0px;
+    width: 480px;
+    margin: 0 10px 20px 10px;
   }
 }
 
-@media (min-width: 1000px) {
-  .songbox {
-    margin: 0 10px 60px 10px;
-  }
-  .titles {
-    font-size: 1rem;
-  }
-}
-
-@media (min-height: 1280px) {
+@media (min-width: 1280px) {
   .email-form {
-    padding-left: 150px;
+    padding-left: 350px;
+  }
+}
+
+@media (min-width: 2400px) {
+  .email-form {
+    padding-left: 650px;
   }
 }
