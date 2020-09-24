@@ -9,14 +9,13 @@
 }
 
 .logotext {
-  font-family: "AmericanaStd", serif; 
+  font-family: "AmericanaStd", serif;
   letter-spacing: 1px;
 }
 
 body {
   font-family: "Lao", sans-serif;
 }
-
 
 /*-------------------------------Nav*/
 
@@ -25,7 +24,7 @@ body {
   position: relative;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.70);
+  background-color: rgba(0, 0, 0, 0.7);
   vertical-align: middle;
   z-index: 900;
   height: 80px;
@@ -116,6 +115,7 @@ body {
 
 .jumbotron {
   background: none;
+  justify-content: center;
 }
 
 .jumbotron-header {
@@ -123,27 +123,25 @@ body {
   font-family: lao;
   font-size: 10vw;
   padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 .jumbotron-button {
+  padding: 6px 16px 6px 16px;
   color: white;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Lao";
   letter-spacing: 1.5px;
-  height: 35px;
-  width: 170px;
   text-align: center;
-  padding: 0;
   background: rgb(199, 200, 160, 0.63);
   border-color: rgb(255, 255, 255, 0.44);
   border-width: 0.1px;
-  border-radius: 0;
-  margin-top: 40px;
 }
 
 .jumbotron-button:hover {
-    color: black;
+  color: black;
+  text-decoration: none;
 }
 
 /*-------------------------------Biography Preview */
@@ -170,21 +168,22 @@ body {
 }
 
 .bio-button {
+  color: black;
+  border: solid;
+  border-color: #000000a1;
+  padding: 4px 20px 4px 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-width: 0.1px;
-  letter-spacing: 1px;
-  height: 28px;
-  width: 110px;
   background: transparent;
- font-size: 13px;
+  font-size: 14px;
   font-family: "Lao";
-  font-weight: 200;
-  text-align: center;
+  letter-spacing: 1px;
 }
 
 .bio-button:hover {
-    color: rgb(199, 200, 160);
+  color: rgb(199, 200, 160);
+  text-decoration: none;
 }
 
 /*-------------------------------Fanmail*/
@@ -218,32 +217,38 @@ body {
 }
 
 .email-button {
-      margin-top: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-width: 0.1px;
   letter-spacing: 1px;
-  height: 28px;
+  height: 27px;
   width: 110px;
+  padding: 0px 10px 0px 10px;
   background: transparent;
   margin-left: 60px;
-  font-size: 14px
+  font-size: 14px;
 }
 
 .email-button:hover {
-    color: white;
+  color: white;
 }
 
 .terms-collapse {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .card-body {
-background-color: transparent;
+  background-color: transparent;
 }
 
 .card {
-    max-width: 600px;
+  max-width: 600px;
+}
+
+.terms-collapse:hover {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 /*-------------------------------Footer*/
@@ -300,11 +305,6 @@ background-color: transparent;
   justify-content: center;
   margin: 10px 0 0 0;
 }
-.inline2 {
-  display: flex;
-  align-items: center;
-  text-align: left;
-}
 
 .container-songs .songbox {
   justify-content: center;
@@ -313,49 +313,44 @@ background-color: transparent;
 }
 
 .title {
-  width: 100%;
-  height: 35px;
-  vertical-align: center;
+  padding: 0px 0px 37px 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0 0 0.1px 0;
+  justify-content: center;
 }
 
-.title p {
-  margin-bottom: 0px;
-  margin-right: 0px;
-}
 .title-text {
-  width: 65%;
+  float: left;
+  padding-bottom: 20px;
 }
 
 .container-songs a:hover {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .songbox {
   color: black;
   font-family: "Lao";
-  font-size: 16px;
+  font-size: 15px;
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
-  height: auto; 
+  height: 48;
   width: auto;
   max-width: 700px;
+  clear: both;
   margin: 0 10px 20px 10px;
+  box-shadow: 0.5px 0.5px 4px #000000;
 }
 
 .songbox img {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding: 10px 0 10px 0;
   height: auto;
   width: 100%;
-}
- 
-.songbox p {
-  bottom: 0;
-  left: 0;
-  color: black;
 }
 
 .songbox a {
@@ -364,12 +359,13 @@ text-decoration: none;
 }
 
 .stream-button-area {
-  width: 35%;
-  text-align: right;
-  margin-right: 3px;
+  float: right;
 }
 
 .songs-button {
+  padding: 5px 10px 5px 10px;
+  border: solid;
+  border-color: #000000a1;
   border-width: 0.1px;
   letter-spacing: 1px;
   height: 28px;
@@ -377,11 +373,8 @@ text-decoration: none;
   background: transparent;
   font-size: 12px;
   margin-bottom: 1rem;
-}
-
-.email-button:hover {
-    color: white;
-    font-size: 13px;
+  text-align: center;
+  justify-content: center;
 }
 
 /*------------------------------- One Song: (Dim,Bumper Cars, Comfortable) */
@@ -401,24 +394,24 @@ text-decoration: none;
   padding: 5px 0 5px 5px;
   text-align: left;
   background-color: white;
-    color: black;
+  color: black;
   font-family: "Lao";
   font-size: 15px;
-    display: flex;
+  display: flex;
   align-items: center;
 }
 
 .linkbox img {
-    margin: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 .song-preview {
-padding:10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
 }
 
 .previewpadding {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .singlebox {
@@ -428,7 +421,7 @@ padding:10px 5px 10px 5px;
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
-  height: auto; 
+  height: auto;
   width: auto;
   max-width: 500px;
   margin: 0 10px 20px 10px;
@@ -468,15 +461,13 @@ padding:10px 5px 10px 5px;
   margin-bottom: 1rem;
 }
 
-
 .back2-songs {
-    text-align: right;
-    height: 20px;
-    width: 100%;
-    margin: 15px 0 20px 0;
-    padding-right: 13px;
+  text-align: right;
+  height: 20px;
+  width: 100%;
+  margin: 15px 0 20px 0;
+  padding-right: 13px;
 }
-
 
 /* -----------------------https://ianlunn.github.io/Hover/ Hover animations -----*/
 
@@ -504,7 +495,9 @@ padding:10px 5px 10px 5px;
   transition-property: color, background-color;
 }
 
-.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+.hvr-back-pulse:hover,
+.hvr-back-pulse:focus,
+.hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
   -webkit-animation-duration: 1s;
@@ -515,46 +508,44 @@ padding:10px 5px 10px 5px;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #C7C8A0;
-  background-color: #C7C8A0;
+  background-color: #c7c8a0;
+  background-color: #c7c8a0;
   color: white;
 }
 
-
 .container-songs a:hoover {
-    text-decoration: none; 
+  text-decoration: none;
 }
 /*------------------------------- Biography Page */
 
 .bg-biography {
-background-color: rgb(219, 219, 219, 0.33);
+  background-color: rgb(219, 219, 219, 0.33);
 }
 
 .biography-page {
-text-align: center;
-padding: 0 20px 20px 20px;
+  text-align: center;
+  padding: 0 20px 20px 20px;
 }
 
 .biography-pic {
-    justify-content: center;
-    margin-top: 30px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .biography-button {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .biography-button:hover {
-    color: rgb(199, 200, 160);
+  color: rgb(199, 200, 160);
 }
 
 /*------------------------------- Screensizes */
 /*------------------------------- Phones */
 
 @media (min-width: 320px) {
-  .songbox .title {
-    height: auto;
-    width: 100%;
+  .title-text {
+    margin-top: 10px;
   }
   .songbox {
     margin: 0 10px 20px 10px;
@@ -569,17 +560,16 @@ padding: 0 20px 20px 20px;
 
 /*------------------------------- Tablet */
 
-
 @media (min-width: 768px) {
   .email-form {
     padding: 50px 20px 50px 100px;
   }
-.songbox {
+  .songbox {
     width: 350px;
     margin: 0 5px 20px 5px;
   }
   .songs-header-text {
-  font-size: 2rem;
+    font-size: 2rem;
   }
 }
 
@@ -589,13 +579,12 @@ padding: 0 20px 20px 20px;
   }
   .songbox {
     max-width: 550px;
-    
   }
   .songs-header-text {
-    font-size: 2.rem;
+    font-size: 2rem;
   }
   .jumbotron-header {
-      font-size: 8vh;
+    font-size: 8vh;
   }
 }
 
