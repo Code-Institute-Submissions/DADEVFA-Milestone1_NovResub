@@ -629,6 +629,7 @@ body {
   background-color: rgb(219, 219, 219, 0.33);
 }
 .form-page {
+    margin-top: 20px;
   font-family: "Lao";
   font-size: 17px;
   letter-spacing: 1px;
@@ -640,7 +641,7 @@ body {
   border-color: #000000a1;
   padding: 4px 24px 4px 24px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   border-width: 0.1px;
   background: transparent;
   font-size: 14px;
