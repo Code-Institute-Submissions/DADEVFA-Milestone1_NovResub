@@ -160,6 +160,9 @@ body {
   letter-spacing: 1px;
   font-family: "Lao";
 }
+.bio-text h4 {
+  font-family: "Lao";
+}
 
 .media-picture {
   text-align: center;
@@ -234,8 +237,9 @@ body {
 }
 
 .terms-collapse {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
+  width: 100%;
 }
 
 .card-body {
@@ -325,10 +329,6 @@ body {
   padding-bottom: 20px;
 }
 
-.container-songs a:hover {
-  text-decoration: none;
-}
-
 .songbox {
   color: black;
   font-family: "Lao";
@@ -336,7 +336,6 @@ body {
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
-  height: 48;
   width: auto;
   max-width: 700px;
   clear: both;
@@ -377,6 +376,10 @@ body {
   justify-content: center;
 }
 
+.container-songs a:hover {
+  text-decoration: none;
+}
+
 /*------------------------------- One Song: (Dim,Bumper Cars, Comfortable) */
 
 .linkbox {
@@ -405,26 +408,24 @@ body {
   margin: 0 10px 0 10px;
 }
 
-.song-preview {
-  padding: 10px 5px 10px 5px;
-}
-
-.previewpadding {
-  margin: 0;
-  padding: 0;
+.preview-box {
+  height: 100%;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
 }
 
 .singlebox {
   color: black;
   font-family: "Lao";
-  font-size: 16px;
+  font-size: 17px;
   border-style: solid;
   border-color: rgb(0, 0, 0, 0.1);
   border-width: 0.1px;
   height: auto;
   width: auto;
   max-width: 500px;
-  margin: 0 10px 20px 10px;
+  margin: 0 8px 20px 8px;
+  clear: both;
 }
 .singlebox img {
   text-align: center;
@@ -446,12 +447,13 @@ body {
 }
 
 .preview-button-area {
-  width: 35%;
-  text-align: right;
-  margin-right: 3px;
+  float: right;
 }
 
 .preview-button {
+  padding: 5px 10px 5px 10px;
+  border: solid;
+  border-color: #000000a1;
   border-width: 0.1px;
   letter-spacing: 1px;
   height: 28px;
@@ -459,14 +461,36 @@ body {
   background: transparent;
   font-size: 12px;
   margin-bottom: 1rem;
+  text-align: center;
+  justify-content: center;
 }
 
 .back2-songs {
-  text-align: right;
+  text-align: center;
   height: 20px;
   width: 100%;
-  margin: 15px 0 20px 0;
+  margin: 15px 2px 20px 0;
   padding-right: 13px;
+}
+
+.dim-preview {
+  width: 100%;
+  height: auto;
+  border: none;
+  background: transparent;
+}
+
+.bumpercars-preview {
+  width: 100%;
+  height: auto;
+  border: none;
+  background: transparent;
+}
+
+.comfortable-preview {
+  width: 100%;
+  height: 300px;
+  border: none;
 }
 
 /* -----------------------https://ianlunn.github.io/Hover/ Hover animations -----*/
@@ -513,9 +537,6 @@ body {
   color: white;
 }
 
-.container-songs a:hoover {
-  text-decoration: none;
-}
 /*------------------------------- Biography Page */
 
 .bg-biography {
@@ -524,12 +545,13 @@ body {
 
 .biography-page {
   text-align: center;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .biography-pic {
   justify-content: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .biography-button {
@@ -538,6 +560,42 @@ body {
 
 .biography-button:hover {
   color: rgb(199, 200, 160);
+}
+
+.bg-biography-text {
+  background-color: rgb(219, 219, 219, 0.33);
+}
+
+/*------------------------------- Contact */
+.bg-contact {
+  background-color: rgb(219, 219, 219, 0.33);
+}
+.form-page {
+  font-family: "Lao";
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding: 40px 25px 40px 25px;
+}
+.contact-button {
+  color: black;
+  border: solid;
+  border-color: #000000a1;
+  padding: 4px 24px 4px 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 0.1px;
+  background: transparent;
+  font-size: 14px;
+  font-family: "Lao";
+  letter-spacing: 1px;
+  text-align: center;
+}
+.contact-button:hover {
+  color: rgb(199, 200, 160);
+}
+.contact-header {
+    margin: 10px 0 30px 0;
+    text-align: center;
 }
 
 /*------------------------------- Screensizes */
@@ -550,11 +608,26 @@ body {
   .songbox {
     margin: 0 10px 20px 10px;
   }
+  .linkbox img {
+    margin: 0 6px 0 6px;
+  }
+  .singlebox {
+    font-size: 15px;
+  }
+  .media-picture {
+    padding-bottom: 40px;
+  }
+  .bio-text {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 415px) {
   .footer-links a {
     margin-right: 1rem;
+  }
+  .linkbox img {
+    margin: 0 10px 0 10px;
   }
 }
 
@@ -570,6 +643,15 @@ body {
   }
   .songs-header-text {
     font-size: 2rem;
+  }
+  .linkbox img {
+    margin: 0 15px 0 15px;
+  }
+  .departure-links {
+    font-size: 18px;
+  }
+  .bio-text {
+    margin-top: 40px;
   }
 }
 
@@ -592,6 +674,9 @@ body {
   .songbox {
     width: 480px;
     margin: 0 10px 20px 10px;
+  }
+  .back2-songs {
+    text-align: right;
   }
 }
 
