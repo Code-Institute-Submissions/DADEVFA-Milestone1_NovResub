@@ -91,9 +91,9 @@ body {
 /*-------------------------------Jumbotron*/
 
 .container-hero-bg {
-  background: url("../images/c&elabackground.jpg") no-repeat center center fixed;
-  max-width: auto;
-  height: auto;
+  background: url("../images/c&elabackground.jpg") no-repeat center fixed;
+  width: 100%;
+  height: 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -401,7 +401,7 @@ body {
   color: black;
   font-family: "Lao";
   font-size: 15px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5px
   display: flex;
   align-items: center;
 }
