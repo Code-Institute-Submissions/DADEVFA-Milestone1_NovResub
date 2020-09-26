@@ -92,7 +92,7 @@ body {
 
 .container-hero-bg {
   background: url("../images/c&elabackground.jpg");
-  height: 500px;
+  height: 550px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -402,7 +402,7 @@ body {
   color: black;
   font-family: "Lao";
   font-size: 15px;
-  letter-spacing: 0.5px
+  letter-spacing: 0.5px;
   display: flex;
   align-items: center;
 }
@@ -686,6 +686,7 @@ body {
 @media (min-width: 375px) { 
 .container-hero-bg {
   height: 600px;
+  max-height: 620px;
   } 
 }
 
