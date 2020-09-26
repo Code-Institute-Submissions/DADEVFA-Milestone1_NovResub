@@ -91,13 +91,14 @@ body {
 /*-------------------------------Jumbotron*/
 
 .container-hero-bg {
-  background: url("../images/c&elabackground.jpg") no-repeat center fixed;
-  width: 100%;
+  background: url("../images/c&elabackground.jpg");
   height: 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0;
   left: 0;
   z-index: -1;
@@ -682,6 +683,11 @@ body {
     margin-top: 20px;
   }
 }
+@media (min-width: 375px) { 
+.container-hero-bg {
+  height: 600px;
+  } 
+}
 
 @media (min-width: 415px) {
   .footer-links a {
@@ -713,6 +719,19 @@ body {
   }
   .bio-text {
     margin-top: 40px;
+  }
+  
+  .container-hero-bg {
+    background: url("../images/c&elabackground.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 }
 
