@@ -254,6 +254,17 @@ body {
   color: whitesmoke;
 }
 
+.modal-content {
+    background-color: rgb(199, 200, 160);
+}
+
+.popup-text {
+    text-align: center;
+    padding: auto;
+    margin: 10px;
+}
+
+
 /*-------------------------------Footer*/
 
 .footer-container {
