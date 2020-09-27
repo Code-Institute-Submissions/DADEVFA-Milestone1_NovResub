@@ -30,14 +30,12 @@ body {
   height: 80px;
 }
 
-.navbar-brand h2 {
-  color: white;
-  font-family: AmericanaStd;
-  font-weight: 100;
-  font-size: 26px;
-  letter-spacing: 2px;
+.navbar-brand {
+  height: 60px;
+  width: 150px;
   vertical-align: middle;
-  display: inline;
+  padding-bottom: 5px;
+  padding-top: 0px;
 }
 
 .navbar-toggler {
@@ -188,7 +186,6 @@ body {
 .bio-button:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  
 }
 
 /*-------------------------------Fanmail*/
@@ -531,16 +528,19 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+.hvr-bounce-to-top:hover,
+.hvr-bounce-to-top:focus,
+.hvr-bounce-to-top:active {
   color: white;
 }
-.hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
+.hvr-bounce-to-top:hover:before,
+.hvr-bounce-to-top:focus:before,
+.hvr-bounce-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
-
 
 @-webkit-keyframes hvr-back-pulse {
   50% {
@@ -595,7 +595,9 @@ body {
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+.hvr-glow:hover,
+.hvr-glow:focus,
+.hvr-glow:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
@@ -690,7 +692,9 @@ body {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
+.hvr-buzz-out:hover,
+.hvr-buzz-out:focus,
+.hvr-buzz-out:active {
   -webkit-animation-name: hvr-buzz-out;
   animation-name: hvr-buzz-out;
   -webkit-animation-duration: 0.75s;
@@ -735,7 +739,7 @@ body {
   background-color: rgb(219, 219, 219, 0.33);
 }
 .form-page {
-    margin-top: 20px;
+  margin-top: 20px;
   font-family: "Lao";
   font-size: 17px;
   letter-spacing: 1px;
@@ -759,8 +763,8 @@ body {
   color: rgb(199, 200, 160);
 }
 .contact-header {
-    margin: 10px 0 30px 0;
-    text-align: center;
+  margin: 10px 0 30px 0;
+  text-align: center;
 }
 
 /*------------------------------- Screensizes */
@@ -786,11 +790,11 @@ body {
     margin-top: 20px;
   }
 }
-@media (min-width: 375px) { 
-.container-hero-bg {
-  height: 600px;
-  max-height: 620px;
-  } 
+@media (min-width: 375px) {
+  .container-hero-bg {
+    height: 600px;
+    max-height: 620px;
+  }
 }
 
 @media (min-width: 415px) {
@@ -824,9 +828,10 @@ body {
   .bio-text {
     margin-top: 40px;
   }
-  
+
   .container-hero-bg {
-    background: url("../images/c&elabackground.jpg") no-repeat center center fixed;
+    background: url("../images/c&elabackground.jpg") no-repeat center center
+      fixed;
     width: 100%;
     height: 80vh;
     -webkit-background-size: cover;
