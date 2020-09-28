@@ -18,18 +18,16 @@ less beautiful site to load, before being able to choose prefered streaming serv
 
 
 
-## Contents
+## Table of contents: 
 * [General](#general)
 * [Technologies](#technologies)
-* [User Experience](#ux)
-* [Testing](#testing)
+* [UX](#ux)
 * [Design](#design)
+* [Testing](#testing)
 * [Deployment](#deployment)
-* [Bugs](#Bugs)
-* [Future](#future)
 * [Credits](#credits)
 
-## General info
+# General
 This project is a simple website for an artist with the main focus on driving traffic
 to music streaming services where their songs or albums are availabe.
 
@@ -51,10 +49,14 @@ to music streaming services where their songs or albums are availabe.
 * Gitpod - Code enviroment, allows code to pe pushed to Github.
 * Google Fonts - Is used as pre-fall back fonts.
 * Bootstrap v4.1.3 - For responsive layout, pop-up & collapse functions.
+* jquery - Used for navigation bar and collapse elements.
+* popper.js - Used for navigation bar and collapse elements.
 * Font Awesome - Complements the design.  
 
 
-# UX - User Experiece:
+# UX
+
+### User Experience
 
 ## As a new visitor who comes straight from any social media profile of the artist and has not heard any music yet:
 
@@ -87,7 +89,7 @@ Because it's an artist website, the design had to be slightly personal for the a
 Main goal for the look and feeling of the website, was to be easy, light yet special and most of all, 
 something that wouldn't feel like a corporate website.
 
-## Fonts: 
+### Fonts: 
 
 For the text that mentions artist name:
 ```
@@ -107,20 +109,156 @@ For all other text:
 * Fallback font: Sans-serif
 ```
 
-## Colors: 
+### Colors: 
 <h1 align="center"><img src="./assets/images/readme/colorpalette.jpg"/></h1>
 
 
 
-## Mockups / Design
+### Mockups
 
-Layout and design was made and created in Adobe Xd. 
-The pictures above are the first draft design. I would say the live website and the 
-design drafted are pretty similar. 
+Layout, wireframes and design was made and created all in one in Adobe Xd. 
+The pictures above are the same as these. The live site has the same design, however there is more functionality and details in the live site.
+The functionality will grow in the future. 
 
+Desktop:
 <h1 align="center"><img src="./assets/images/readme/Desktop.png"/></h1>
+
+Tablet:
 <h1 align="center"><img src="./assets/images/readme/Tablet.png"/></h1>
+
+Phone:
 <h1 align="center"><img src="./assets/images/readme/Phone.png"/></h1>
 
 
-            loading..
+## Pages: 
+
+### Homepage:
+- Homepage has a big full screen image, with a call for action button, to 
+the core of the site. The songs pages. 
+
+- Navigation bar sits ontop of the image, 
+which gives a more expensive or artistic
+feeling. 
+
+- Short biography directly under the hero image, should be visible from start, 
+but not fully. Users focus should be on go to songs button, 
+but should also know that there is more underneath.
+The short bio has a button that takes user to biography.
+
+- Underneath the short bio on homepage, there is a form that gathers 
+email addresses of the users that wants to receive news and notifications 
+from the artist. Personal pop-up message shows up once button is pressed. 
+
+- Footer contains the artists most prioritized social media and 
+streaming platform links. Hover functionality on them aswell. 
+
+
+### Songspage:
+
+- Contains all the artist songs like boxes. Lovely hover function that 
+adds pleasing responsive playfullness. 
+Ones user choose song, the the hover functionality stays on the box in
+the new page. 
+
+- Here we also have the fanletter form under all songs.
+
+
+### Songpage:
+- Contains same songbox as previous page, with a new preview button.
+All streaming platforms that has the song is availabe under or to the right depending on the users device.
+A back to "Songspage" button, if the user wants to check other songs out.
+
+### Biography:
+- This page is for users who wants to read about the artist,
+ and get to know him better. After this, there is a button 
+ taking them to "Songspage".
+
+### Contact: 
+
+- A simple contact form, that filters the incoming messages by sorting out 
+what the subject is about.
+
+### Overall:
+- Navigation bar is the same, except on the Homepage, 
+since the hero image is still visible underneath it.  
+
+- Footer is same through out the website.
+
+
+- All buttons have similar design with hover functionality to make them 
+stand out from their environment.  
+
+
+### Future features: 
+- Be able to upload a song with all the details and links, so that a page is created, 
+and automatically shows up amongst "Songspage". 
+
+
+# Testing 
+Site has been tested mostly and heavily on Chrome DevTools. 
+However live version was very diffrent regarding the hero image.
+Links, layout and responsiveness has been tested. 
+
+### Devices:
+Tests has been done on the live version on: 
+* Iphone 5 SE 
+* Iphone 6 
+* Iphone 7 
+* Iphone X 
+* Samsung Galaxy 9 
+* Macbook Pro 
+* Ipad 
+
+Browsers:
+
+Test has been done on: 
+
+* Chrome
+* Safari 
+
+
+### HTML Validation Results: 
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdadevfa.github.io%2FMilestone1%2Findex.html">Homepage: Pass</a>
+
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdadevfa.github.io%2FMilestone1%2Fsongs.html">Songspage: Pass</a>
+
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdadevfa.github.io%2FMilestone1%2Fbumpercars.html">Songpage: Pass</a>
+
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdadevfa.github.io%2FMilestone1%2Fbiography.html">Biography: Pass</a>
+
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdadevfa.github.io%2FMilestone1%2Fcontact.html">Contact: Pass</a>
+
+
+### CSS Validation Results: 
+<a href="https://validator.w3.org/nu/#l906c1">CSS - Pass</a>
+
+
+## People: 
+
+Friends and artist like the design. They understand the purpose of the page imidiately, and can go to places they want to go to easily. 
+All buttons work, all images work, text may deviate from main style depending on device or browser, but the pre fallback fonts 
+do a good job keeping the integrity of the design. 
+
+
+# Deployment
+
+This website was published using GitHub Pages. 
+
+On Github, and on the specific repository for this page, there is a settings button.
+Further down on that page is Github Pages section. 
+I selected the Master branch instead of None and saved it. Site went live.
+The link was made using the repository name as a part of it. 
+
+
+
+# Credits
+* Ian Lunn for great hover effects: https://github.com/IanLunn/Hover 
+
+* My mentor 
+
+* Stackoverflow people for inspiring to better solutions.
+
+* Coolors.co for making it easy to print out a color palette of the colors used for this site.
+
+
+

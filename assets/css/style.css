@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Lao", "Baskervville" sans-serif;
+  font-family: "Lao", "Baskervville", sans-serif;
 }
 
 /*-------------------------------Nav*/
@@ -260,7 +260,6 @@ body {
 
 .popup-text {
     text-align: center;
-    padding: auto;
     margin: 10px;
 }
 
@@ -894,11 +893,14 @@ body {
 
 @media (min-height: 1024px) {
   .jumbotron { 
-    padding-bottom: 0 32px 100px 32px;
+    padding: 0 32px 100px 32px;
+ }
 }
 
 @media (min-height: 1300px) {
   .jumbotron { 
- padding-bottom: 0 32px 350px 32px;
+    padding: 0 32px 350px 32px;
   }
 }
+
+
