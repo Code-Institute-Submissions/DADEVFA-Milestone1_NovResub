@@ -190,9 +190,15 @@ It makes the design less corporate, and more discrete, allowing focus to be on S
 stand out from their environment.  
 
 
-### Future features: 
+## Future features: 
 - Be able to upload a song with all the details and links, so that a page is created, 
 and automatically shows up on Songspage. 
+
+### Known issues: 
+- When trying to submit the email address, even if it's not fully correct or meets requirements, the popup message still shows up.
+It should only show up if email is filled in correctly. 
+
+- The jumbotron heading is not 100% where it could be, on all devices, landscape mode. There must be a better approach. Works for now. 
 
 
 # Testing 
