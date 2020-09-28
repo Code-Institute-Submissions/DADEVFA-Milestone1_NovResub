@@ -9,7 +9,7 @@
 }
 
 .logotext {
-  font-family: "AmericanaStd","Lateef", serif;
+  font-family: "AmericanaStd", "Lateef", serif;
   letter-spacing: 2px;
 }
 
@@ -46,17 +46,13 @@ body {
 
 .center-menu {
   text-align: center;
-  font-family: AmericanaStd;
+  font-family: "AmericanaStd";
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 .nav-item {
   font-size: 20px;
-}
-
-.navbar ul li {
-  position: relative;
 }
 
 #navbarNavDropdown {
@@ -70,7 +66,7 @@ body {
 }
 
 .Nav2 {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.73);
   width: 100%;
   position: relative;
 }
@@ -82,8 +78,9 @@ body {
   left: 0;
   right: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.73);
+  border-color: rgba(0, 0, 0, 0.73);
+  color: white;
 }
 
 /*-------------------------------Jumbotron*/
@@ -310,7 +307,7 @@ body {
 
 .songs-header-text {
   margin: 30px 20px 20px 20px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: "Lao";
 }
@@ -335,7 +332,7 @@ body {
 
 .title-text {
   float: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .songbox {
@@ -782,7 +779,7 @@ body {
 
 @media (min-width: 320px) {
   .title-text {
-    margin-top: 10px;
+    margin-top: 12px;
   }
   .songbox {
     margin: 0 10px 20px 10px;
@@ -804,6 +801,10 @@ body {
   .container-hero-bg {
     height: 550px;
     max-height: 620px;
+  }
+  .title-text {
+      font-size: larger;
+      margin-top: 8px;
   }
 }
 

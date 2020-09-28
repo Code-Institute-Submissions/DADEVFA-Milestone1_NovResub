@@ -181,10 +181,10 @@ what the subject is about.
 
 ### Overall:
 - Navigation bar is the same, except on the Homepage, 
-since the hero image is still visible underneath it.  
+since the hero image is still visible underneath it. It also contains the hamburger constantly. 
+It makes the design less corporate, and more discrete, allowing focus to be on Songspage, even on desktop. 
 
 - Footer is same through out the website.
-
 
 - All buttons have similar design with hover functionality to make them 
 stand out from their environment.  
@@ -216,6 +216,7 @@ Test has been done on:
 
 * Chrome
 * Safari 
+* Firefox 
 
 
 ### HTML Validation Results: 
