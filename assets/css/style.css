@@ -9,12 +9,12 @@
 }
 
 .logotext {
-  font-family: "AmericanaStd", serif;
-  letter-spacing: 1px;
+  font-family: "AmericanaStd","Lateef", serif;
+  letter-spacing: 2px;
 }
 
 body {
-  font-family: "Lao", sans-serif;
+  font-family: "Lao", "Baskervville" sans-serif;
 }
 
 /*-------------------------------Nav*/
@@ -90,7 +90,7 @@ body {
 
 .container-hero-bg {
   background: url("../images/c&elabackground.jpg");
-  height: 550px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -803,7 +803,7 @@ body {
 }
 @media (min-width: 375px) {
   .container-hero-bg {
-    height: 600px;
+    height: 550px;
     max-height: 620px;
   }
 }
@@ -889,5 +889,16 @@ body {
 @media (min-width: 2400px) {
   .email-form {
     padding-left: 650px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .jumbotron { 
+    padding-bottom: 0 32px 100px 32px;
+}
+
+@media (min-height: 1300px) {
+  .jumbotron { 
+ padding-bottom: 0 32px 350px 32px;
   }
 }
