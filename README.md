@@ -133,12 +133,12 @@ Phone:
 ## Pages: 
 
 ### Homepage:
-- Homepage has a big full screen image, with a call for action button, to 
-the core of the site. The songs pages. 
+- Homepage has a big full screen image, with a call to action button, to 
+the core of the site: the Songspage. 
 
 - Navigation bar sits ontop of the image, 
 which gives a more expensive or artistic
-feeling. 
+feeling since you see through due to the set opacity. 
 
 - Short biography directly under the hero image, should be visible from start, 
 but not fully. Users focus should be on go to songs button, 
@@ -150,28 +150,29 @@ email addresses of the users that wants to receive news and notifications
 from the artist. Personal pop-up message shows up once button is pressed. 
 
 - Footer contains the artists most prioritized social media and 
-streaming platform links. Hover functionality on them aswell. 
+streaming platform links. The hover functionality on them makes the site more alive
+and gives the feeling of playfulness. 
 
 
 ### Songspage:
 
-- Contains all the artist songs like boxes. Lovely hover function that 
-adds pleasing responsive playfullness. 
-Ones user choose song, the the hover functionality stays on the box in
-the new page. 
+- Contains all the artists songs, with boxes around them. Lovely hover function that 
+adds pleasing responsiveness. 
+Ones user chooses song, the hover functionality remains on the box in
+the new songpage. 
 
-- Here we also have the fanletter form under all songs.
+- Fanletter form under all the songs.
 
 
 ### Songpage:
 - Contains same songbox as previous page, with a new preview button.
 All streaming platforms that has the song is availabe under or to the right depending on the users device.
-A back to "Songspage" button, if the user wants to check other songs out.
+A back to Songspage button, if the user wants to check other songs out.
 
 ### Biography:
 - This page is for users who wants to read about the artist,
  and get to know him better. After this, there is a button 
- taking them to "Songspage".
+ taking them to Songspage.
 
 ### Contact: 
 
@@ -191,23 +192,23 @@ stand out from their environment.
 
 ### Future features: 
 - Be able to upload a song with all the details and links, so that a page is created, 
-and automatically shows up amongst "Songspage". 
+and automatically shows up on Songspage. 
 
 
 # Testing 
 Site has been tested mostly and heavily on Chrome DevTools. 
-However live version was very diffrent regarding the hero image.
+However, the live versions hero image was very different.
 Links, layout and responsiveness has been tested. 
 
 ### Devices:
 Tests has been done on the live version on: 
-* Iphone 5 SE 
-* Iphone 6 
-* Iphone 7 
-* Iphone X 
+* iPhone 5 SE 
+* iPhone 6 
+* iPhone 7 
+* iPhone X 
 * Samsung Galaxy 9 
 * Macbook Pro 
-* Ipad 
+* iPad 
 
 Browsers:
 
@@ -260,5 +261,5 @@ The link was made using the repository name as a part of it.
 
 * Coolors.co for making it easy to print out a color palette of the colors used for this site.
 
-
+* C&ELA for supplying with images, text and all other necessary things.  
 
