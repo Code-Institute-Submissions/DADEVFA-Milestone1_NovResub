@@ -194,20 +194,59 @@ stand out from their environment.
 - Be able to upload a song with all the details and links, so that a page is created, 
 and automatically shows up on Songspage. 
 
-### Known issues: 
-- When trying to submit the email address, even if it's not fully correct or meets requirements, the popup message still shows up.
-It should only show up if email is filled in correctly. 
-
-- The jumbotron heading is not 100% where it could be, on all devices, landscape mode. There must be a better approach. Works for now. 
-
-
 # Testing 
-Site has been tested mostly and heavily on Chrome DevTools. 
-However, the live versions hero image was very different.
-Links, layout and responsiveness has been tested. 
+
+## Tests on live version:
+
+### Navigation Bar: 
+- When logo is clicked, user gets sent to home page, this works on all pages, all devices.
+- All links in hamburger meny works, on all pages, on mobile, tablet and desktop devices.
+- Hamburger meny is visible on all screen sizes.  
+- Correct link is highlighted when user is at that specific page. Works on all pages. 
+
+### Footer:
+- All social links are correct and opens a new tab on all devices, on all pages. 
+- Hover effect works fine, when mouse hovers, only on desktops. All pages and all devices. 
+- Footer is always located at the bottom, on all devices, on all pages. 
+
+### Home: 
+- Hero image is always located at the very top and under the navigation bar, on all devices. 
+- Call to action button, sends user to songs page. Hover effect works.
+- Mini biography section changes layout correctly depending on device. 
+- Biography button on startpage takes user to biography page. Hover effect works. 
+- Fanmail section looks and responds well. Popup shows up, when user clicks Sign up button. 
+Terms collapse works on all devices. Signup buttons hover effect works fine. 
+- Signup button is not yet active to recieve any email addresses. 
+### Songs:
+- Page is responsive. Grid system works fine, showing each song in its own box. Pressing on the box or the stream button, takes 
+user to correct song. Hover effect on the box works, and hover effect on stream button works.
+- Fanmail section works as expected. Collapses terms correctly, hover effect on sign up button works. 
+### Dim:
+- Responsiveness is good on all devices. All links go to correct stores, in new tabs. Hover effect works fine on departure links. Preview button, collapses the preview of the song from Spotify correctly in the box, and disappears when pressed again. However the hover effect remains.
+Works on all devices. Go to songs button takes user back to songs page. Hover works. Popup shows up when clicked. 
+
+### Bumper Cars:
+- Responsiveness is also good, looks and behaves exactly as mentioned above. All departure links work correctly.  
+
+### Comfortable:
+- Responsiveness works here too, link and preview goes only to Soundcloud. Go to songs page button works as expected. 
+
+### Biography:
+- Short biography text on the new artist, with a small profile picture above. Works on all devices.
+When go to songs button is clicked, user goes to songs page. Hover effect works. 
+
+### Contact: 
+- Small contact form. Looks good on all devices. 
+Works only if email address is entered. Not active at the moment. 
+
+### Other:
+
+- No broken links found. 
+- All images work fine. 
+
 
 ### Devices:
-Tests has been done on the live version on: 
+
 * iPhone 5 SE 
 * iPhone 6 
 * iPhone 7 
@@ -217,8 +256,6 @@ Tests has been done on the live version on:
 * iPad 
 
 Browsers:
-
-Test has been done on: 
 
 * Chrome
 * Safari 
@@ -240,10 +277,17 @@ Test has been done on:
 ### CSS Validation Results: 
 <a href="https://validator.w3.org/nu/#l906c1">CSS - Pass</a>
 
+## Known issues: 
+- When trying to submit the email address, even if it's not fully correct or meets requirements, the popup message still shows up.
+It should only show up if email is filled in correctly. 
 
-## People: 
+- Contact form is not active at the moment. 
 
-Friends and artist like the design. They understand the purpose of the page imidiately, and can go to places they want to go to easily. 
+- The jumbotron heading is not 100% where it could be, on all devices, landscape mode. There must be a better approach. Works for now. 
+
+## Tested by other people: 
+
+Friends, family and artist like the design. They understand the purpose of the page imidiately, and can go to places they want to go to easily. 
 All buttons work, all images work, text may deviate from main style depending on device or browser, but the pre fallback fonts 
 do a good job keeping the integrity of the design. 
 
