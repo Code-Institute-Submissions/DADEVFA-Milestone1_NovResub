@@ -1,10 +1,10 @@
 @font-face {
-  src: url(fonts/AmericanaStd.woff);
+  src: url(../fonts/AmericanaStd.woff);
   font-family: "AmericanaStd";
 }
 
 @font-face {
-  src: url(fonts/LaoMN.ttf);
+  src: url(../fonts/LaoMN.ttf);
   font-family: "Lao";
 }
 
