@@ -708,14 +708,17 @@ body {
 }
 
 /*------------------------------- Biography Page */
+.background-bio-page {
+    background-color:  rgba(219, 219, 219);
+}
 
 .bg-biography {
-  background-color: rgb(219, 219, 219, 0.33);
+  background-color: #ffffff;
 }
 
 .biography-page {
   text-align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 25px 20px 20px 20px;
 }
 
 .biography-pic {
@@ -733,7 +736,11 @@ body {
 }
 
 .bg-biography-text {
-  background-color: rgb(219, 219, 219, 0.33);
+  background-color: rgba(240, 240, 240, 0.979);
+  box-shadow: 0.1px 0.5px 4px #000000;
+}
+.bio-gotosongs {
+margin-bottom: 40px;
 }
 
 /*------------------------------- Contact */
