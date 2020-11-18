@@ -3,18 +3,13 @@
   font-family: "AmericanaStd";
 }
 
-@font-face {
-  src: url(../fonts/LaoMN.ttf);
-  font-family: "Lao";
-}
-
 .logotext {
   font-family: "AmericanaStd", "Lateef", serif;
   letter-spacing: 2px;
 }
 
 body {
-  font-family: "Lao", "Baskervville", sans-serif;
+  font-family: "Baskervville", sans-serif
 }
 
 /*-------------------------------Nav*/
