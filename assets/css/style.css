@@ -745,14 +745,16 @@ margin-bottom: 40px;
 
 /*------------------------------- Contact */
 .bg-contact {
-  background-color: rgb(219, 219, 219, 0.33);
+  background-color:white;
 }
 .form-page {
-  margin-top: 20px;
+  margin: 20px 0 60px ;
   font-family: "Lao";
   font-size: 17px;
   letter-spacing: 1px;
-  padding: 40px 25px 40px 25px;
+  padding: 40px 25px 0 25px;
+  background-color: rgba(240, 240, 240, 0.979);
+  box-shadow: 0.1px 0.5px 4px #000000;
 }
 .contact-button {
   color: black;
@@ -772,7 +774,7 @@ margin-bottom: 40px;
   color: rgb(199, 200, 160);
 }
 .contact-header {
-  margin: 10px 0 30px 0;
+  margin: 30px 0 30px 0;
   text-align: center;
 }
 
