@@ -116,14 +116,14 @@ body {
 
 .jumbotron-header {
   color: white;
-  font-family: lao;
+  font-family: "Lao";
   font-size: 10vw;
   padding-top: 40px;
   margin-bottom: 40px;
 }
 
 .jumbotron-button {
-  padding: 8px 16px 8px 16px;
+  padding: 9px 16px 6px 16px;
   color: white;
   font-weight: 100;
   font-size: 14px;
@@ -170,7 +170,7 @@ body {
   color: black;
   border: solid;
   border-color: #000000a1;
-  padding: 4px 20px 4px 20px;
+  padding: 5px 20px 3px 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-width: 0.1px;
@@ -222,7 +222,7 @@ body {
   letter-spacing: 1px;
   height: 31px;
   width: 110px;
-  padding: 0px 10px 0px 10px;
+  padding: 4px 10px 0px 10px;
   background: transparent;
   margin-left: 60px;
   font-size: 14px;
