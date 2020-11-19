@@ -243,6 +243,8 @@ Works only if email address is entered. Not active at the moment.
 
 - No broken links found. 
 - All images work fine. 
+- Favicon is in place, to fix the 404 error regarding missing favicon. 
+ 
 
 
 ### Devices:
@@ -283,7 +285,8 @@ It should only show up if email is filled in correctly.
 
 - Contact form is not active at the moment. 
 
-- The jumbotron heading is not 100% where it could be, on all devices, landscape mode. There must be a better approach. Works for now. 
+- Some warnings has appeared in console regarding the embeded content from Spotify and Soundcloud. Will deal with them soon. The previews do work as expected. 
+- The jumbotron heading is not 100% where it could be, on all devices and landscape mode. There must be a better approach. Works for now. 
 
 ## Tested by other people: 
 
